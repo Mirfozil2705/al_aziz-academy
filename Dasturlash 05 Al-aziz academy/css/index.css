@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.menu_1 {
+	width: 100%;
+	height: 42px;
+	background-color: #f2184f;
+}
+.menu_2 {
+	width: 100%;
+	height: 66px;
+	background-color: #fff;
+}
+.menu_3 {
+	width: 100%;
+	height: 42px;
+	background-color: rgb(102, 102, 102);
+}
+.menu4 {
+	width: 100%;
+
+	background-color: aqua;
+}
+.menu_1_blok {
+	position: relative;
+	width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	/* background-color: rgb(94, 29, 151); */
+	display: flex;
+}
+.menu_2_blok {
+	position: relative;
+	width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	/* background-color: rgb(65, 158, 94); */
+	display: flex;
+}
+.menu_3_blok {
+	position: relative;
+	width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	/* background-color: rgb(134, 143, 151); */
+}
+.menu_4_blok {
+	position: absolute;
+	background-image: url(http://al-aziz-academy.uz/img/background/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.bayroq {
+	/* background-color: aqua; */
+	position: relative;
+	width: max-content;
+	top: 0px;
+	display: flex;
+}
+.uzbek {
+	position: relative;
+	top: 5px;
+	left: 10px;
+	color: #fff;
+	width: max-content;
+}
+.logo {
+	position: relative;
+	width: max-content;
+	display: flex;
+	/* background-color: aqua; */
+	left: 1000px;
+}
+.insta a {
+	display: flex;
+}
+.tg a {
+	display: flex;
+}
+.fb a {
+	display: flex;
+}
+.insta {
+	padding: 10px 10px;
+	display: flex;
+}
+.tg {
+	display: flex;
+	padding: 10px 10px;
+}
+.fb {
+	display: flex;
+	padding: 10px 10px;
+}
+.logo_al_aziz {
+	position: relative;
+	display: flex;
+	width: max-content;
+}
+.al_aziz {
+	position: relative;
+	top: 15px;
+	color: rgb(85, 95, 174);
+}
+.phone_blok {
+	position: relative;
+	width: max-content;
+	left: 600px;
+	/* background-color: aqua; */
+	display: flex;
+}
+.telefon {
+	position: relative;
+	padding: 10px 10px;
+	font-size: 15px;
+}
+.telefon a {
+	text-decoration: none;
+	color: #ccc;
+}
+.vaqt {
+	position: relative;
+	padding: 10px 10px;
+}
+.menu {
+	position: relative;
+	width: 800px;
+	/* background-color: #F2184F; */
+	margin: 0 auto;
+	padding: 5px 50px;
+}
+.li a {
+	text-decoration: none;
+	color: #fff;
+}
+.li {
+	position: relative;
+	display: inline-block;
+	padding: 7px 30px;
+	/* background-color: aqua; */
+	border-radius: 50px;
+	transition: background-color 0.5s;
+}
+.li1 {
+	background-color: rgba(202, 202, 202, 0.564);
+}
+.li1 a {
+	color: black;
+}
+.li:hover a {
+	color: black;
+	transition: 0.4s;
+}
+.li:hover {
+	background-color: #fff;
+	transition: 0.5s;
+}
+ul {
+	padding: 0 150px;
+}
+.menu_4_blok img {
+	position: relative;
+	width: 100%;
+}
+.MENU_4_TEXT {
+	width: max-content;
+	/* background-color: aqua; */
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 40px;
+}
+.text_4_menu {
+	width: max-content;
+	/* background-color: aqua; */
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+.menu_4_grid {
+	width: max-content;
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #fff;
+}
+.grid_2 {
+	border-left: 1px solid black;
+}
+.grid_3 {
+	border-left: 1px solid black;
+}
+.grid_4 {
+	border-left: 1px solid black;
+}
+.grid_1 h2 {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.grid_2 h2 {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.grid_3 h2 {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.grid_4 h2 {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.grid_1 h3 {
+	width: max-content;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #ccc;
+}
+.grid_2 h3 {
+	width: 150px;
+
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #ccc;
+}
+.grid_3 h3 {
+	width: 150px;
+
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #ccc;
+}
+.grid_4 h3 {
+	width: 150px;
+
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #ccc;
+}
+.padval {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+
+	bottom: 0;
+	background-color: #29363e;
+}
+.grid_link {
+	width: 200px;
+	margin: 0 auto;
+	height: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 30px);
+	padding: 20px 20px 20px 20px;
+}
+.fcb {
+	display: flex;
+	margin-eft: 10px;
+}
+.in {
+	display: flex;
+	margin-eft: 10px;
+}
+.tgr {
+	display: flex;
+	margin-eft: 40px;
+}
